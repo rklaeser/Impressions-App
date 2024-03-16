@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EFD193C0-9531-472C-B017-86C148F9BF3E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hw8/VC_Campaign.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "tableView(_:accessoryButtonTappedForRowWith:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - e9a61d7db2a95b94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/hw/hw8/Hw8%202/Hw8/VC_Campaign.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - e9a61d7db2a95a75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/hw/hw8/Hw8%202/Hw8/VC_Campaign.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - e9a61d7db2a95b3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/hw/hw8/Hw8%202/Hw8/VC_Campaign.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 21aa43ffc0ed153d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress%20UIKit/Hw8/VC_Campaign.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 3868ec4cdcc16561"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress/Impress%20UIKit/Hw8/VC_Campaign.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "356">
+               </Location>
+               <Location
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 91e63628b47c13ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/VC_Campaign.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B371023F-8671-4C91-9BD8-2E93917C0BCE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hw8/VC_Campaign.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBA4BA4D-37B2-49D0-A11F-D102CF8B5472"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hw8/V_Account.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "FBA4BA4D-37B2-49D0-A11F-D102CF8B5472 - b6467cd3cc2af3f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Text&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;)&gt;&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(leading: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Hw8.V_Account.body.getter : some"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "FBA4BA4D-37B2-49D0-A11F-D102CF8B5472 - 696e9b66fb8c44e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Text&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;)&gt;&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(leading: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Hw8.V_Account.body.getter : some"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "FBA4BA4D-37B2-49D0-A11F-D102CF8B5472 - 1f6eebcd91edbf49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Text&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;)&gt;&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(leading: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Hw8.V_Account.body.getter : some"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "FBA4BA4D-37B2-49D0-A11F-D102CF8B5472 - c0460c78a64b085f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Text&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;)&gt;&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(leading: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Hw8.V_Account.body.getter : some"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "FBA4BA4D-37B2-49D0-A11F-D102CF8B5472 - 8709381d484d716c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Text&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;)&gt;&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(leading: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Hw8.V_Account.body.getter : some"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "FBA4BA4D-37B2-49D0-A11F-D102CF8B5472 - 5821dfa87febc67a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; SwiftUI.Text in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Text&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;)&gt;&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(leading: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Hw8.V_Account.body.getter : some"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC1076DD-0773-464D-99AF-23166B40596E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hw8/V_Account.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "V_Account"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - 54caa1def772ebc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Hw8.M_Impression) -&gt; Swift.Bool in variable initialization expression of Hw8.V_Account.completedImpressionsCount : Swift.Int"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - 3be24a708e9c4e01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.V_Account.init() -&gt; Hw8.V_Account"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - 67137e2028831a5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.V_Account.init(presentationMode: SwiftUI.Environment&lt;SwiftUI.Binding&lt;SwiftUI.PresentationMode&gt;&gt;) -&gt; Hw8.V_Account"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - fde236c0aab5b857"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Hw8.M_Impression) -&gt; Swift.Bool in variable initialization expression of Hw8.V_Account.completedImpressionsCount : Swift.Int"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - 92cadd6ed35b1d90"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.V_Account.init() -&gt; Hw8.V_Account"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - ce3be93e754449cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.V_Account.init(presentationMode: SwiftUI.Environment&lt;SwiftUI.Binding&lt;SwiftUI.PresentationMode&gt;&gt;) -&gt; Hw8.V_Account"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Depaul%20Code/471%20ios/project/Impress/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - 6585e5107315762c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Hw8.M_Impression) -&gt; Swift.Bool in variable initialization expression of Hw8.V_Account.completedImpressionsCount : Swift.Int"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - aad0ebe0afbd3eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.V_Account.init() -&gt; Hw8.V_Account"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - 565c3aeeace487b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.V_Account.init(presentationMode: SwiftUI.Environment&lt;SwiftUI.Binding&lt;SwiftUI.PresentationMode&gt;&gt;) -&gt; Hw8.V_Account"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
