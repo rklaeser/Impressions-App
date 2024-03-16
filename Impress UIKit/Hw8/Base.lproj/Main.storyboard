@@ -145,6 +145,22 @@
             </objects>
             <point key="canvasLocation" x="823.66412213740455" y="652.81690140845069"/>
         </scene>
+        <!--Camera-->
+        <scene sceneID="2GQ-GQ-ezK">
+            <objects>
+                <viewController id="UF2-dd-65P" customClass="VC_Camera" customModule="Hw8" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AqV-Cq-pAB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aGT-zV-vO5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera.fill" catalog="system" id="BOJ-u8-KG8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AtA-NN-IRR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-382" y="2032"/>
+        </scene>
         <!--Play-->
         <scene sceneID="g43-7p-cgR">
             <objects>
@@ -332,6 +348,7 @@
                         <segue destination="fty-eb-Yl8" kind="relationship" relationship="viewControllers" id="SPw-Pa-tp4"/>
                         <segue destination="SuL-qm-AN3" kind="relationship" relationship="viewControllers" id="afb-jE-gax"/>
                         <segue destination="qfz-63-BXr" kind="relationship" relationship="viewControllers" id="VvJ-ox-wUs"/>
+                        <segue destination="UF2-dd-65P" kind="relationship" relationship="viewControllers" id="9us-lZ-hp5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="935-GP-Jjl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -358,6 +375,7 @@
         <image name="Movie" width="512" height="512"/>
         <image name="President" width="512" height="512"/>
         <image name="Star" width="800" height="753"/>
+        <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="mountain.2.fill" catalog="system" width="128" height="76"/>
         <image name="person.crop.circle" catalog="system" width="128" height="123"/>

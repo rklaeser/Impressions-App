@@ -32,7 +32,7 @@ struct V_Play: View {
                     NavigationLink(destination: Text("Button 5 Tapped")) {
                         ButtonView(buttonText: "Daily Competition")
                     }
-                    NavigationLink(destination: Text("Button 6 Tapped")) {
+                    NavigationLink(destination: Text("Button 6 Tapped fish")) {
                         ButtonView(buttonText: "Settings")
                     }
                 }
