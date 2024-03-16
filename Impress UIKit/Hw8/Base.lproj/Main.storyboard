@@ -143,23 +143,27 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HM2-aK-Qhz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="823.66412213740455" y="652.81690140845069"/>
+            <point key="canvasLocation" x="618" y="539"/>
         </scene>
         <!--Camera-->
-        <scene sceneID="2GQ-GQ-ezK">
+        <scene sceneID="2jo-vK-aXK">
             <objects>
-                <viewController id="UF2-dd-65P" customClass="VC_Camera" customModule="Hw8" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="AqV-Cq-pAB">
+                <viewController id="HxW-Ei-nAL" customClass="VC_CameraContainer" customModule="Hw8" customModuleProvider="target" sceneMemberID="viewController">
+                    <containerView key="view" opaque="NO" contentMode="scaleToFill" id="50S-1u-i4y">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="aGT-zV-vO5"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Camera" image="camera.fill" catalog="system" id="BOJ-u8-KG8"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <connections>
+                            <segue destination="hGB-tb-Eza" kind="embed" id="jlk-H8-ImJ"/>
+                        </connections>
+                    </containerView>
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera.fill" catalog="system" id="jbH-QQ-zXG"/>
+                    <connections>
+                        <outlet property="containerViewCamera" destination="50S-1u-i4y" id="hx1-bv-Pvs"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AtA-NN-IRR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0rN-RX-2gr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-382" y="2032"/>
+            <point key="canvasLocation" x="-672.51908396946567" y="2009.8591549295775"/>
         </scene>
         <!--Play-->
         <scene sceneID="g43-7p-cgR">
@@ -180,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZk-oG-PI6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="657" y="1991"/>
+            <point key="canvasLocation" x="399" y="2011"/>
         </scene>
         <!--Campaign Detail-->
         <scene sceneID="e1B-Dk-PLA">
@@ -269,7 +273,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0kf-JT-beg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1687.7862595419847" y="642.25352112676057"/>
+            <point key="canvasLocation" x="1381" y="539"/>
         </scene>
         <!--Home-->
         <scene sceneID="3Gc-wC-6wA">
@@ -298,7 +302,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="30w-BJ-f0r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="785.49618320610682" y="1286.6197183098593"/>
+            <point key="canvasLocation" x="-1653" y="1313"/>
         </scene>
         <!--SwiftUI Container-->
         <scene sceneID="hj2-fJ-Xmg">
@@ -332,7 +336,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gI3-uA-BU4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="657" y="2750"/>
+            <point key="canvasLocation" x="396" y="2745"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="46F-I9-lej">
@@ -348,7 +352,7 @@
                         <segue destination="fty-eb-Yl8" kind="relationship" relationship="viewControllers" id="SPw-Pa-tp4"/>
                         <segue destination="SuL-qm-AN3" kind="relationship" relationship="viewControllers" id="afb-jE-gax"/>
                         <segue destination="qfz-63-BXr" kind="relationship" relationship="viewControllers" id="VvJ-ox-wUs"/>
-                        <segue destination="UF2-dd-65P" kind="relationship" relationship="viewControllers" id="9us-lZ-hp5"/>
+                        <segue destination="HxW-Ei-nAL" kind="relationship" relationship="viewControllers" id="lBv-yl-Prr"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="935-GP-Jjl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -369,6 +373,20 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kcr-we-E3g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3349" y="1287"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="etq-CW-WBp">
+            <objects>
+                <viewController id="hGB-tb-Eza" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0fX-wm-tCb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mIt-mz-2cd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-671" y="2792"/>
         </scene>
     </scenes>
     <resources>
