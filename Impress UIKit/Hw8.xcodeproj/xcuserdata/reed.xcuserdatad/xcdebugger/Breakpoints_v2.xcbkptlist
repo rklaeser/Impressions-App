@@ -109,6 +109,21 @@
                   endingLineNumber = "92"
                   offsetFromSymbolStart = "356">
                </Location>
+               <Location
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 91e63628b47c13ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/VC_Campaign.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "384">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -216,6 +231,21 @@
                   startingLineNumber = "24"
                   endingLineNumber = "24"
                   offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "FBA4BA4D-37B2-49D0-A11F-D102CF8B5472 - 8709381d484d716c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Range&lt;Swift.Int&gt;, Swift.Int, SwiftUI.Text&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #2 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.Text, SwiftUI.Text)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.TupleView&lt;(SwiftUI.HStack&lt;&lt;&lt;opaque return type of SwiftUI.View.pickerStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.PickerStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;, SwiftUI.Toggle&lt;SwiftUI.Text&gt;)&gt;, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(Hw8.AchievementView, Hw8.AchievementView)&gt;&gt;)&gt;&gt;, SwiftUI.EmptyView&gt;)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarItems&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(leading: &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Hw8.V_Account.body.getter : some"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "388">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -369,6 +399,21 @@
                   startingLineNumber = "11"
                   endingLineNumber = "11"
                   offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "AC1076DD-0773-464D-99AF-23166B40596E - aad0ebe0afbd3eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.V_Account.init() -&gt; Hw8.V_Account"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/V_Account.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "616">
                </Location>
             </Locations>
          </BreakpointContent>
