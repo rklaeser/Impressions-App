@@ -12,10 +12,10 @@ class M_Tutorial: ObservableObject {
     init() {
         // Initialize with dummy data, you can replace it with actual data
         self.items = [
-            TutorialItem(title: "Impressions follow a simple formula", imageName: "atom", description: "..."),
-            TutorialItem(title: "Intonations and Cadence", imageName: "star", description: "Obama starts slow and finishes fast"),
-            TutorialItem(title: "Signature Phrase", imageName: "square.and.arrow.up", description: "Trump says \"Believe me\" and \"Yuge\" "),
-            TutorialItem(title: "Physical", imageName: "heart", description: "George W. Bush squints"),
+            TutorialItem(title: "Impressions are as easy as 1,2,3", imageName: "Steps", description: "All you need are Itonations, Phrases, and Physical Expressions"),
+            TutorialItem(title: "Intonations and Cadence", imageName: "Obama", description: "Obama starts slow and finishes fast"),
+            TutorialItem(title: "Signature Phrase", imageName: "Trump", description: "Trump says \"Believe me\" and \"Yuge\" "),
+            TutorialItem(title: "Physical", imageName: "Bush", description: "George W. Bush squints"),
         ]
     }
 }

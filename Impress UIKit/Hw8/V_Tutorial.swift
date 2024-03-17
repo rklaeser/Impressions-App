@@ -53,13 +53,13 @@ struct TutorialItemView: View {
             Text(item.title)
                 .font(.title)
                 .padding()
-            Image(systemName: item.imageName)
+            Image(item.imageName)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 100, height: 100) // Adjust size as needed
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 100, height: 200) // Adjust size as needed
                 .padding()
             Text(item.description)
-                .font(.caption)
+                .font(.headline)
                 .padding()
         }
     }
