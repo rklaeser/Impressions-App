@@ -1,4 +1,5 @@
 import SwiftUI
+import AVKit
 
 struct V_Tutorial: View {
     @ObservedObject var model = M_Tutorial()
@@ -47,6 +48,7 @@ struct V_Tutorial: View {
 
 struct TutorialItemView: View {
     let item: TutorialItem
+    @StateObject private var audioPlayer = AudioPlayer()
 
     var body: some View {
         VStack {
@@ -61,6 +63,10 @@ struct TutorialItemView: View {
             Text(item.description)
                 .font(.headline)
                 .padding()
+        }.onAppear{
+            audioPlayer.playAudio(fileName: item.audioName)
+        }.onDisappear{
+            audioPlayer.stopAudio()
         }
     }
 }
@@ -71,3 +77,25 @@ struct TutorialView_Previews: PreviewProvider {
     }
 }
 
+class AudioPlayer: ObservableObject {
+    private var player: AVAudioPlayer?
+
+    func playAudio(fileName: String) {
+        guard let audioURL = Bundle.main.url(forResource: fileName, withExtension: "M4A") else {
+            print("Audio file not found.")
+            return
+        }
+
+        do {
+            // Initialize audio player
+            player = try AVAudioPlayer(contentsOf: audioURL)
+            player?.play()
+        } catch {
+            print("Error playing audio: \(error.localizedDescription)")
+        }
+    }
+
+    func stopAudio() {
+        player?.stop()
+    }
+}

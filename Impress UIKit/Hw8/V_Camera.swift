@@ -39,7 +39,7 @@ struct V_Camera: View {
                             if let capturedImage = capturedImage {
                                 savePhotoToResources(image: capturedImage)
                                 // Append M_Social to M_Socials
-                                M_Socials.append(M_Social(_videoName: "NewPhoto", _userName: "@JohnDoe", _caption: caption))
+                                //M_Socials.append(M_Social(_videoName: "NewPhoto", _userName: "@JohnDoe", _caption: caption))
                                 presentationMode.wrappedValue.dismiss()
                                 NotificationCenter.default.post(name: .triggerNotification, object: nil)
                             }

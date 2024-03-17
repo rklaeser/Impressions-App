@@ -13,6 +13,9 @@
 		000349402BA250BA0092B7C6 /* V_Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0003493F2BA250BA0092B7C6 /* V_Tutorial.swift */; };
 		000349422BA251030092B7C6 /* M_Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000349412BA251030092B7C6 /* M_Tutorial.swift */; };
 		000F53DE2BA7AC6E004991B2 /* Obama.M4A in Resources */ = {isa = PBXBuildFile; fileRef = 000F53DD2BA7AC6E004991B2 /* Obama.M4A */; };
+		000F53E02BA7AE14004991B2 /* Bush.M4A in Resources */ = {isa = PBXBuildFile; fileRef = 000F53DF2BA7AE13004991B2 /* Bush.M4A */; };
+		000F53E22BA7AF3F004991B2 /* Trump.M4A in Resources */ = {isa = PBXBuildFile; fileRef = 000F53E12BA7AF3F004991B2 /* Trump.M4A */; };
+		000F53E42BA7B0B5004991B2 /* Easy.M4A in Resources */ = {isa = PBXBuildFile; fileRef = 000F53E32BA7B0B5004991B2 /* Easy.M4A */; };
 		004544AC2BA126DA00D76465 /* VC_PlayContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004544AB2BA126DA00D76465 /* VC_PlayContainer.swift */; };
 		004544AE2BA128B900D76465 /* V_Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004544AD2BA128B900D76465 /* V_Play.swift */; };
 		006BA40C2B964FB00001C14D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BA40B2B964FB00001C14D /* AppDelegate.swift */; };
@@ -55,6 +58,9 @@
 		0003493F2BA250BA0092B7C6 /* V_Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V_Tutorial.swift; sourceTree = "<group>"; };
 		000349412BA251030092B7C6 /* M_Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_Tutorial.swift; sourceTree = "<group>"; };
 		000F53DD2BA7AC6E004991B2 /* Obama.M4A */ = {isa = PBXFileReference; lastKnownFileType = file; name = Obama.M4A; path = ../../../../Documents/Obama.M4A; sourceTree = "<group>"; };
+		000F53DF2BA7AE13004991B2 /* Bush.M4A */ = {isa = PBXFileReference; lastKnownFileType = file; name = Bush.M4A; path = ../../../../Documents/Bush.M4A; sourceTree = "<group>"; };
+		000F53E12BA7AF3F004991B2 /* Trump.M4A */ = {isa = PBXFileReference; lastKnownFileType = file; name = Trump.M4A; path = ../../../../Documents/Trump.M4A; sourceTree = "<group>"; };
+		000F53E32BA7B0B5004991B2 /* Easy.M4A */ = {isa = PBXFileReference; lastKnownFileType = file; name = Easy.M4A; path = ../../../../Documents/Easy.M4A; sourceTree = "<group>"; };
 		004544AB2BA126DA00D76465 /* VC_PlayContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_PlayContainer.swift; sourceTree = "<group>"; };
 		004544AD2BA128B900D76465 /* V_Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V_Play.swift; sourceTree = "<group>"; };
 		006BA4082B964FB00001C14D /* Hw8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hw8.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +152,9 @@
 				009B79872BA64A42000FFE5D /* V_Social.swift */,
 				009B79892BA773C4000FFE5D /* M_Social.swift */,
 				000F53DD2BA7AC6E004991B2 /* Obama.M4A */,
+				000F53DF2BA7AE13004991B2 /* Bush.M4A */,
+				000F53E12BA7AF3F004991B2 /* Trump.M4A */,
+				000F53E32BA7B0B5004991B2 /* Easy.M4A */,
 			);
 			path = Hw8;
 			sourceTree = "<group>";
@@ -254,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000F53E22BA7AF3F004991B2 /* Trump.M4A in Resources */,
 				006BA4182B964FB00001C14D /* LaunchScreen.storyboard in Resources */,
+				000F53E42BA7B0B5004991B2 /* Easy.M4A in Resources */,
 				009B79862BA649B4000FFE5D /* Kona.MOV in Resources */,
+				000F53E02BA7AE14004991B2 /* Bush.M4A in Resources */,
 				006BA4152B964FB00001C14D /* Assets.xcassets in Resources */,
 				000F53DE2BA7AC6E004991B2 /* Obama.M4A in Resources */,
 				006BA4132B964FB00001C14D /* Main.storyboard in Resources */,
