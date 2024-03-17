@@ -12,11 +12,11 @@ class VC_CameraContainer: UIViewController {
     @IBOutlet var containerViewCamera: UIView!
     
     
-    var mySwiftUIViewInstance: V_Camera?
+    var mySwiftUIViewInstance: V_Social?
     
     override func viewDidLoad() {
             super.viewDidLoad()
-            mySwiftUIViewInstance = V_Camera() // Initialize your SwiftUI view
+            mySwiftUIViewInstance = V_Social() // Initialize your SwiftUI view
 
             // Set up container view
             if let mySwiftUIViewInstance = mySwiftUIViewInstance {

@@ -145,7 +145,7 @@
             </objects>
             <point key="canvasLocation" x="618" y="539"/>
         </scene>
-        <!--Camera-->
+        <!--Social-->
         <scene sceneID="2jo-vK-aXK">
             <objects>
                 <viewController id="HxW-Ei-nAL" customClass="VC_CameraContainer" customModule="Hw8" customModuleProvider="target" sceneMemberID="viewController">
@@ -156,7 +156,7 @@
                             <segue destination="hGB-tb-Eza" kind="embed" id="jlk-H8-ImJ"/>
                         </connections>
                     </containerView>
-                    <tabBarItem key="tabBarItem" title="Camera" image="camera.fill" catalog="system" id="jbH-QQ-zXG"/>
+                    <tabBarItem key="tabBarItem" title="Social" image="camera.fill" catalog="system" id="jbH-QQ-zXG"/>
                     <connections>
                         <outlet property="containerViewCamera" destination="50S-1u-i4y" id="hx1-bv-Pvs"/>
                     </connections>
@@ -249,6 +249,12 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Complete"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBh-4T-8iu">
+                                <rect key="frame" x="142" y="719" width="84" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Camera"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dXL-yY-9yV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -263,6 +269,7 @@
                     </view>
                     <connections>
                         <outlet property="back" destination="IaJ-GO-mpo" id="1Vh-D5-UMa"/>
+                        <outlet property="cameraButton" destination="uBh-4T-8iu" id="OZ7-5g-Xp6"/>
                         <outlet property="complete" destination="MX9-ar-D7d" id="QxV-RZ-7KZ"/>
                         <outlet property="imageView" destination="Se9-8T-dDa" id="lUY-Bh-mjI"/>
                         <outlet property="longDescriptionLabel" destination="xxK-Z2-qHn" id="WTd-7e-Wgz"/>

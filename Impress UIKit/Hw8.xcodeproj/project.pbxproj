@@ -25,6 +25,9 @@
 		009B79802BA61C99000FFE5D /* VC_Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B797F2BA61C99000FFE5D /* VC_Camera.swift */; };
 		009B79822BA62C44000FFE5D /* VC_CameraContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B79812BA62C44000FFE5D /* VC_CameraContainer.swift */; };
 		009B79842BA62C61000FFE5D /* V_Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B79832BA62C61000FFE5D /* V_Camera.swift */; };
+		009B79862BA649B4000FFE5D /* Kona.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 009B79852BA649B4000FFE5D /* Kona.MOV */; };
+		009B79882BA64A42000FFE5D /* V_Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B79872BA64A42000FFE5D /* V_Social.swift */; };
+		009B798A2BA773C4000FFE5D /* M_Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B79892BA773C4000FFE5D /* M_Social.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		009B797F2BA61C99000FFE5D /* VC_Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Camera.swift; sourceTree = "<group>"; };
 		009B79812BA62C44000FFE5D /* VC_CameraContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_CameraContainer.swift; sourceTree = "<group>"; };
 		009B79832BA62C61000FFE5D /* V_Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V_Camera.swift; sourceTree = "<group>"; };
+		009B79852BA649B4000FFE5D /* Kona.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Kona.MOV; path = ../../../../Downloads/Kona.MOV; sourceTree = "<group>"; };
+		009B79872BA64A42000FFE5D /* V_Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V_Social.swift; sourceTree = "<group>"; };
+		009B79892BA773C4000FFE5D /* M_Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_Social.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +139,10 @@
 				000349412BA251030092B7C6 /* M_Tutorial.swift */,
 				009B797F2BA61C99000FFE5D /* VC_Camera.swift */,
 				009B79812BA62C44000FFE5D /* VC_CameraContainer.swift */,
+				009B79852BA649B4000FFE5D /* Kona.MOV */,
 				009B79832BA62C61000FFE5D /* V_Camera.swift */,
+				009B79872BA64A42000FFE5D /* V_Social.swift */,
+				009B79892BA773C4000FFE5D /* M_Social.swift */,
 			);
 			path = Hw8;
 			sourceTree = "<group>";
@@ -243,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				006BA4182B964FB00001C14D /* LaunchScreen.storyboard in Resources */,
+				009B79862BA649B4000FFE5D /* Kona.MOV in Resources */,
 				006BA4152B964FB00001C14D /* Assets.xcassets in Resources */,
 				006BA4132B964FB00001C14D /* Main.storyboard in Resources */,
 			);
@@ -276,7 +286,9 @@
 				006BA40C2B964FB00001C14D /* AppDelegate.swift in Sources */,
 				000349402BA250BA0092B7C6 /* V_Tutorial.swift in Sources */,
 				006BA4402B9661300001C14D /* VC_CampaignDetail.swift in Sources */,
+				009B798A2BA773C4000FFE5D /* M_Social.swift in Sources */,
 				0003493E2BA235C80092B7C6 /* VC_SwiftUIContainer.swift in Sources */,
+				009B79882BA64A42000FFE5D /* V_Social.swift in Sources */,
 				0003493C2BA22B820092B7C6 /* V_Account.swift in Sources */,
 				009B79842BA62C61000FFE5D /* V_Camera.swift in Sources */,
 				006BA43C2B9655050001C14D /* VC_Campaign.swift in Sources */,

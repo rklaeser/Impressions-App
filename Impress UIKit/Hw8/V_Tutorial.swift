@@ -50,8 +50,6 @@ struct TutorialItemView: View {
 
     var body: some View {
         VStack {
-            
-
             Text(item.title)
                 .font(.title)
                 .padding()
