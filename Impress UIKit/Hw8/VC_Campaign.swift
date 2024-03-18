@@ -9,15 +9,18 @@ import UIKit
 
 
 class VC_Campaign: UITableViewController, UIPopoverPresentationControllerDelegate {
-    
+    var selectedGeneration = GenerationFilterManager.shared.selectedIndex
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+        selectedGeneration = GenerationFilterManager.shared.selectedIndex
+        print(selectedGeneration)
         // Assuming your tableView is named "tableView"
         tableView.reloadData() // Reload the table view data
     }
@@ -27,14 +30,34 @@ class VC_Campaign: UITableViewController, UIPopoverPresentationControllerDelegat
     }
     override func tableView(_ tableView: UITableView,
                             numberOfRowsInSection section: Int) -> Int {
-        return M_Impressions.count
+
+        var impressionCount = M_Impressions.count
+        if (selectedGeneration == 1 || selectedGeneration == 2){
+            let filteredImpressions = M_Impressions.filter { impression in
+                // Assuming `generation` is a property of the `Impression` model
+                return impression.gen == selectedGeneration
+            }
+            
+            impressionCount = filteredImpressions.count
+        }
+        return impressionCount
     }
     
     // Render table view cells
     override func tableView(_ tableView: UITableView,
                             cellForRowAt indexPath: IndexPath)
     -> UITableViewCell {
-        let impression = M_Impressions[indexPath.row]
+        var impression = M_Impressions[indexPath.row]
+        if (selectedGeneration == 1 || selectedGeneration == 2){
+            let filteredImpressions = M_Impressions.filter { impression in
+                    // Assuming `generation` is a property of the `Impression` model
+                    return impression.gen == selectedGeneration
+                }
+
+            let impression = filteredImpressions[indexPath.row]
+        }
+        
+
         let cell = tableView.dequeueReusableCell(
             withIdentifier: impression.type.rawValue,
             for: indexPath)

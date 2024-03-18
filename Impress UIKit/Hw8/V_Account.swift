@@ -3,11 +3,11 @@ import SwiftUI
 struct V_Account: View {
     @Environment(\.presentationMode) var presentationMode
 
-    @State private var selectedAgeGroupIndex = 0
+    @ObservedObject var filterManager = GenerationFilterManager.shared
     @State private var leftSwitchIsOn = false
     @State private var rightSwitchIsOn = false
-// TODO: Tutorial badge is conditional on completing the tutorial
-    let ageGroups = ["No filter", "Gen Z", "Millennial", "Fogey"]
+
+    let ageGroups = ["No filter", "Millenial", "Fogey"]
     let completedImpressionsCount = M_Impressions.filter { $0.complete }.count
     
     var body: some View {
@@ -20,10 +20,10 @@ struct V_Account: View {
                 
                 Section(header: Text("Filter Content")) {
                     HStack {
-                        Picker(selection: $selectedAgeGroupIndex, label: Text("Generation Filter")) {
-                            ForEach(0..<ageGroups.count, id: \.self) { index in
-                                Text(ageGroups[index])
-                            }
+                        Picker(selection: $filterManager.selectedIndex, label: Text("Generation Filter")) {
+                                                    ForEach(0..<ageGroups.count, id: \.self) { index in
+                                                        Text(ageGroups[index])
+                                                    }
                         }
                         .pickerStyle(MenuPickerStyle())
                     }
@@ -95,5 +95,8 @@ struct AchievementView: View {
     }
 }
 
-
+class GenerationFilterManager: ObservableObject {
+    static let shared = GenerationFilterManager()
+        @Published var selectedIndex = 0
+}
 
