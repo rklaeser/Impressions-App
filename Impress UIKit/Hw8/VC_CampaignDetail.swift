@@ -18,17 +18,14 @@ class VC_CampaignDetail: UIViewController {
     @IBOutlet weak var back: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        cameraButton.tag = 0
-        
+                
         // Add a custom back button to the navigation item
+        //let backButton = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(backButtonTapped))
+        //self.navigationItem.leftBarButtonItem = backButton
         back.addTarget(self, action: #selector(backButtonTapped), for:  UIControl.Event.touchUpInside)
         complete.addTarget(self, action: #selector(completeButtonTapped), for:  UIControl.Event.touchUpInside)
-        cameraButton.addTarget(self, action: #selector(buttonTapped), for:  UIControl.Event.touchUpInside)
         configureView()
         
-        NotificationCenter.default.addObserver(self, selector: #selector(handleNotification), name: .triggerNotification, object: nil)
-
     }
     
     
@@ -50,8 +47,8 @@ class VC_CampaignDetail: UIViewController {
         
         nameLabel.text = impression.name
         typeLabel.text = "Category: \(impression.type)"
-        shortDescriptionLabel.text = impression.subtitle
-        longDescriptionLabel.text = impression.script
+        shortDescriptionLabel.text = "Phrase or Quirk: \(impression.subtitle)"
+        longDescriptionLabel.text = "Quote: \(impression.script)"
           
     }
     @objc func backButtonTapped() {
@@ -65,27 +62,27 @@ class VC_CampaignDetail: UIViewController {
         }
     
     // Add a single method for both buttons
-    @objc func buttonTapped(_ sender: UIButton) {
-        print("Button tapped!")
-
-        // Initialize the appropriate SwiftUI view based on the sender's tag
-        var swiftUIView: AnyView?
-        switch sender.tag {
-        case 0: // Account button tapped
-            requestCameraAccess()
-            swiftUIView = AnyView(V_Camera())
-        case 1: // Play button tapped
-            swiftUIView = AnyView(V_Tutorial())
-        default:
-            break
-        }
-
-        // Present the SwiftUIContainerViewController2 with the selected SwiftUI view
-        let swiftUIContainerVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VC_SwiftUIContainer") as! VC_SwiftUIContainer
-        swiftUIContainerVC.modalPresentationStyle = .fullScreen
-        swiftUIContainerVC.mySwiftUIView = swiftUIView
-        present(swiftUIContainerVC, animated: true, completion: nil)
-    }
+//    @objc func buttonTapped(_ sender: UIButton) {
+//        print("Button tapped!")
+//
+//        // Initialize the appropriate SwiftUI view based on the sender's tag
+//        var swiftUIView: AnyView?
+//        switch sender.tag {
+//        case 0: // Account button tapped
+//            requestCameraAccess()
+//            swiftUIView = AnyView(V_Camera())
+//        case 1: // Play button tapped
+//            swiftUIView = AnyView(V_Tutorial())
+//        default:
+//            break
+//        }
+//
+//        // Present the SwiftUIContainerViewController2 with the selected SwiftUI view
+//        let swiftUIContainerVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VC_SwiftUIContainer") as! VC_SwiftUIContainer
+//        swiftUIContainerVC.modalPresentationStyle = .fullScreen
+//        swiftUIContainerVC.mySwiftUIView = swiftUIView
+//        present(swiftUIContainerVC, animated: true, completion: nil)
+//    }
     
     @objc func handleNotification() {
             // Perform the appropriate action when the notification is triggered
@@ -95,15 +92,5 @@ class VC_CampaignDetail: UIViewController {
             present(alertController, animated: true, completion: nil)
         }
     
-    func requestCameraAccess() {
-        AVCaptureDevice.requestAccess(for: .video) { granted in
-            if granted {
-                // Access to the camera has been granted by the user
-                // You can now proceed with using the camera in your app
-            } else {
-                // Access to the camera has been denied by the user
-                // Handle this scenario, such as showing an alert or providing instructions to enable camera access in Settings
-            }
-        }
-    }
+    
 }

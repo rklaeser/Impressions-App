@@ -49,6 +49,69 @@
                   endingLineNumber = "115"
                   offsetFromSymbolStart = "384">
                </Location>
+               <Location
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 91e63628b47c16c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/VC_Campaign.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "356">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C868051-DD3B-43DE-A3C3-25896411E94E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hw8/V_Camera.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "imageSaved(_:didFinishSavingWithError:contextInfo:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4C868051-DD3B-43DE-A3C3-25896411E94E - 5b00af0ffd8272e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_CameraViewController.imageSaved(_: __C.UIImage, didFinishSavingWithError: Swift.Optional&lt;Swift.Error&gt;, contextInfo: Swift.UnsafeRawPointer) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/V_Camera.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "4C868051-DD3B-43DE-A3C3-25896411E94E - 5b00af0ffd8272e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_CameraViewController.imageSaved(_: __C.UIImage, didFinishSavingWithError: Swift.Optional&lt;Swift.Error&gt;, contextInfo: Swift.UnsafeRawPointer) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/V_Camera.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "176">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
