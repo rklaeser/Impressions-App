@@ -1,15 +1,16 @@
 import UIKit
 import Photos
 
-class VC_CameraViewController: UIViewController {
+class VC_CameraViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
     @IBOutlet weak var back: UIButton!
-    private var capturedImage: UIImage?
-    
+    private let imagePicker = UIImagePickerController()
+    var selectedImage = SharedImage.shared
     override func viewDidLoad() {
         super.viewDidLoad()
         back.addTarget(self, action: #selector(backButtonTapped), for:  UIControl.Event.touchUpInside)
         setupViews()
+        imagePicker.delegate = self
     }
     
     func setupViews() {
@@ -27,22 +28,43 @@ class VC_CameraViewController: UIViewController {
     }
     
     @objc func backButtonTapped() {
-            // Dismiss the current view controller
-            self.dismiss(animated: true, completion: nil)
-        }
+        // Dismiss the current view controller
+        self.dismiss(animated: true, completion: nil)
+    }
     
     @objc func captureImage() {
-        // Simulated image capture
-        let simulatedImage = UIImage(named: "Bush")
-        capturedImage = simulatedImage
-        saveImageToLibrary()
+        // Check if camera is available
+        guard UIImagePickerController.isSourceTypeAvailable(.camera) else {
+            print("Camera is not available")
+            return
+        }
+        
+        // Set up image picker for camera
+        imagePicker.sourceType = .camera
+        imagePicker.allowsEditing = false
+        
+        // Present image picker
+        present(imagePicker, animated: true, completion: nil)
     }
     
-    func saveImageToLibrary() {
-        guard let image = capturedImage else { return }
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        guard let pickedImage = info[.originalImage] as? UIImage else {
+            dismiss(animated: true, completion: nil)
+            return
+        }
         
-        UIImageWriteToSavedPhotosAlbum(image, self, #selector(imageSaved(_:didFinishSavingWithError:contextInfo:)), nil)
+        // Save captured image to shared data
+        selectedImage.imageExists = true
+        selectedImage.capturedImage = pickedImage
+        //UIImageWriteToSavedPhotosAlbum(pickedImage, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
+        
+        dismiss(animated: true, completion: nil)
     }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     
     @objc func imageSaved(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
         if let error = error {

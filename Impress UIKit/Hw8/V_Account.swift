@@ -9,21 +9,34 @@ struct V_Account: View {
     @State private var rightSwitchIsOn = false
     let ageGroups = ["No filter", "Millenial", "Fogey"]
     let completedImpressionsCount = M_Impressions.filter { $0.complete }.count
+    @ObservedObject var profilePhoto = SharedImage.shared
+    var selectedGeneration = GenerationFilterManager.shared.selectedIndex
     
     var body: some View {
         NavigationView {
             Form {
-                Section(header: Text("Camera")) {
-                    Button(action: {
-                        requestCameraAccess()
-                        isDetailPresented.toggle()
-                    }) {
-                        Image(systemName: "camera.fill")
-                            .font(.system(size: 30))
-                            .foregroundColor(.white)
-                            .padding(20)
-                            .background(Color.blue)
-                            .clipShape(Circle())
+                Section(header: Text("Profile Picture")) {
+                    if (profilePhoto.imageExists == true){
+                        if let capturedImage = profilePhoto.capturedImage {
+                                            Image(uiImage: capturedImage)
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fit)
+                                                .frame(width: 200, height: 200)
+                                        } else {
+                                            Text("Profile Image Error")
+                                        }
+                    } else {
+                        Button(action: {
+                            requestCameraAccess()
+                            isDetailPresented.toggle()
+                        }) {
+                            Image(systemName: "camera.fill")
+                                .font(.system(size: 30))
+                                .foregroundColor(.white)
+                                .padding(20)
+                                .background(Color.blue)
+                                .clipShape(Circle())
+                        }
                     }
                 }
                 Section(header: Text("Account")) {
@@ -148,5 +161,10 @@ struct AchievementView: View {
 class GenerationFilterManager: ObservableObject {
     static let shared = GenerationFilterManager()
         @Published var selectedIndex = 0
+}
+class SharedImage: ObservableObject {
+    static let shared = SharedImage()
+    @Published var imageExists = false
+    @Published var capturedImage: UIImage?
 }
 
