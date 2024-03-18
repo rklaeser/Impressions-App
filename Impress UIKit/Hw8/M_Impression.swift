@@ -9,7 +9,6 @@ import Foundation
 
 class M_Impression {
     
-
     enum `Type`: String {
         case Movie = "Movie"
         case Star = "Star"
@@ -22,8 +21,6 @@ class M_Impression {
         case Fogey = "Fogey"
 
     }
-    
-    
     
     var name: String
     var type: Type
@@ -44,8 +41,6 @@ class M_Impression {
     }
 }
 
-
-
 let M_Impressions = [
     M_Impression(name: "Arnold", type: .Movie, subtitle: "I'll be back", script: "Arnold: \"I'll have the steak with mashed potatoes, please.\"\nWaiter: \"I'm sorry, sir, but we're all out of steak.\"\nArnold: in his trademark accent \"No steak? Fine. I'll be back... with my own cow!\"", complete: true, imageName: "Arnold", gen: 0),
     M_Impression(name: "Vizzini", type: .Movie, subtitle: "Inconceivable", script: "Inconceivable", complete: false, imageName: "Vizzini", gen: 1),
@@ -61,5 +56,4 @@ let M_Impressions = [
     M_Impression(name: "Obama", type: .President, subtitle: "Let me be clear", script: "My fellow Americans, let me be clear. Change doesn't come easy, but it is possible. Yes, we can. We've made great strides, but our journey is far from over.", complete: false, imageName: "Obama", gen: 0),
     M_Impression(name: "George W. Bush", type: .President, subtitle: "Now watch this drive", script: "I call upon all nations to do everything they can to stop these terrorist killers. Thank you. Now, watch this drive.", complete: false, imageName: "George", gen: 0)
 ]
-
 
