@@ -57,3 +57,4 @@ let M_Impressions = [
     M_Impression(name: "George W. Bush", type: .President, subtitle: "Now watch this drive", script: "I call upon all nations to do everything they can to stop these terrorist killers. Thank you. Now, watch this drive.", complete: false, imageName: "Bush", gen: 0)
 ]
 
+

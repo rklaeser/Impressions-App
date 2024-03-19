@@ -1,5 +1,4 @@
 import UIKit
-import Photos
 
 class VC_CameraViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
 
@@ -56,24 +55,12 @@ class VC_CameraViewController: UIViewController, UIImagePickerControllerDelegate
         // Save captured image to shared data
         selectedImage.imageExists = true
         selectedImage.capturedImage = pickedImage
-        //UIImageWriteToSavedPhotosAlbum(pickedImage, self, #selector(image(_:didFinishSavingWithError:contextInfo:)), nil)
         
         dismiss(animated: true, completion: nil)
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
-    }
-    
-    
-    @objc func imageSaved(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer) {
-        if let error = error {
-            // Handle error
-            print("Error saving image: \(error.localizedDescription)")
-        } else {
-            // Image saved successfully
-            print("Image saved successfully.")
-        }
     }
 }
 

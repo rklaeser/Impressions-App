@@ -1,6 +1,8 @@
 import SwiftUI
 import TipKit
 
+var gamesPlayedCount = 0
+
 struct V_Play: View {
     @State private var isSpinning = false
     @State private var selectedImpressionIndex = 0
@@ -8,7 +10,7 @@ struct V_Play: View {
     private let timerInterval = 0.1 // Interval for rotation timer
     @State private var isDetailPresented = false
     var impressionTip = ImpressionTip()
-
+    
     
     var body: some View {
         VStack {
@@ -42,6 +44,7 @@ struct V_Play: View {
                 Button(action: {
                     startSpinningImpressions()
                     startSpinningScenarios()
+                    gamesPlayedCount += 1
                 }) {
                     Text("Play")
                         .padding()

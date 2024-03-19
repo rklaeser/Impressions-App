@@ -148,7 +148,7 @@
         <!--Social-->
         <scene sceneID="2jo-vK-aXK">
             <objects>
-                <viewController id="HxW-Ei-nAL" customClass="VC_CameraContainer" customModule="Hw8" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HxW-Ei-nAL" customClass="VC_SocialContainer" customModule="Hw8" customModuleProvider="target" sceneMemberID="viewController">
                     <containerView key="view" opaque="NO" contentMode="scaleToFill" id="50S-1u-i4y">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -158,7 +158,7 @@
                     </containerView>
                     <tabBarItem key="tabBarItem" title="Social" image="camera.fill" catalog="system" id="jbH-QQ-zXG"/>
                     <connections>
-                        <outlet property="containerViewCamera" destination="50S-1u-i4y" id="hx1-bv-Pvs"/>
+                        <outlet property="containerViewCamera" destination="50S-1u-i4y" id="YlI-Jg-O6o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0rN-RX-2gr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -286,9 +286,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAB-Ne-OP7">
-                                <rect key="frame" x="326" y="161" width="24" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAB-Ne-OP7">
+                                <rect key="frame" x="323" y="161" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="MYf-9M-NUU"/>
+                                    <constraint firstAttribute="width" constant="50" id="kQT-Er-SVt"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
                                     <backgroundConfiguration key="background" image="person.crop.circle" catalog="system"/>
@@ -297,6 +300,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9lM-z7-DNy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WAB-Ne-OP7" firstAttribute="top" secondItem="9lM-z7-DNy" secondAttribute="top" constant="65" id="7Sq-jt-f26"/>
+                            <constraint firstItem="9lM-z7-DNy" firstAttribute="trailing" secondItem="WAB-Ne-OP7" secondAttribute="trailing" constant="30" id="FnC-bv-hPK"/>
+                            <constraint firstItem="9lM-z7-DNy" firstAttribute="trailing" secondItem="WAB-Ne-OP7" secondAttribute="trailing" constant="20" id="I4E-BC-FnR"/>
+                            <constraint firstItem="WAB-Ne-OP7" firstAttribute="top" secondItem="9lM-z7-DNy" secondAttribute="top" constant="102" id="fap-Hk-9rC"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="hFS-fu-D5c"/>
                     <connections>

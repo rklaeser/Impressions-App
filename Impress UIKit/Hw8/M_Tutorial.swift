@@ -7,8 +7,8 @@ struct TutorialItem {
     let audioName: String
 }
 
-class M_Tutorial: ObservableObject {
-    @Published var items: [TutorialItem] = []
+class M_Tutorial {
+    var items: [TutorialItem] = []
 
     init() {
         // Initialize with dummy data, you can replace it with actual data

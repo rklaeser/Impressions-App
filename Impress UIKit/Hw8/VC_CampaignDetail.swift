@@ -1,12 +1,9 @@
 import UIKit
 import SwiftUI
-import AVFoundation
-import AVKit
 
 class VC_CampaignDetail: UIViewController {
     var impression: M_Impression? // Assuming you set this from the previous view controller
     
-    @IBOutlet weak var cameraButton: UIButton!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var typeLabel: UILabel!
     @IBOutlet weak var shortDescriptionLabel: UILabel!
@@ -20,8 +17,6 @@ class VC_CampaignDetail: UIViewController {
         super.viewDidLoad()
                 
         // Add a custom back button to the navigation item
-        //let backButton = UIBarButtonItem(title: "Back", style: .plain, target: self, action: #selector(backButtonTapped))
-        //self.navigationItem.leftBarButtonItem = backButton
         back.addTarget(self, action: #selector(backButtonTapped), for:  UIControl.Event.touchUpInside)
         complete.addTarget(self, action: #selector(completeButtonTapped), for:  UIControl.Event.touchUpInside)
         configureView()
@@ -60,29 +55,6 @@ class VC_CampaignDetail: UIViewController {
             impression?.complete.toggle()
             self.dismiss(animated: true, completion: nil)
         }
-    
-    // Add a single method for both buttons
-//    @objc func buttonTapped(_ sender: UIButton) {
-//        print("Button tapped!")
-//
-//        // Initialize the appropriate SwiftUI view based on the sender's tag
-//        var swiftUIView: AnyView?
-//        switch sender.tag {
-//        case 0: // Account button tapped
-//            requestCameraAccess()
-//            swiftUIView = AnyView(V_Camera())
-//        case 1: // Play button tapped
-//            swiftUIView = AnyView(V_Tutorial())
-//        default:
-//            break
-//        }
-//
-//        // Present the SwiftUIContainerViewController2 with the selected SwiftUI view
-//        let swiftUIContainerVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "VC_SwiftUIContainer") as! VC_SwiftUIContainer
-//        swiftUIContainerVC.modalPresentationStyle = .fullScreen
-//        swiftUIContainerVC.mySwiftUIView = swiftUIView
-//        present(swiftUIContainerVC, animated: true, completion: nil)
-//    }
     
     @objc func handleNotification() {
             // Perform the appropriate action when the notification is triggered

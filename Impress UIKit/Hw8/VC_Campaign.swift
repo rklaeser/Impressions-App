@@ -49,12 +49,12 @@ class VC_Campaign: UITableViewController, UIPopoverPresentationControllerDelegat
     -> UITableViewCell {
         var impression = M_Impressions[indexPath.row]
         if (selectedGeneration == 1 || selectedGeneration == 2){
-            let filteredImpressions = M_Impressions.filter { impression in
+            let filteredImpressions = M_Impressions.filter { impressionData in
                     // Assuming `generation` is a property of the `Impression` model
-                    return impression.gen == selectedGeneration
+                    return impressionData.gen == selectedGeneration
                 }
 
-            let impression = filteredImpressions[indexPath.row]
+            impression = filteredImpressions[indexPath.row]
         }
         
 
@@ -80,7 +80,15 @@ class VC_Campaign: UITableViewController, UIPopoverPresentationControllerDelegat
     
     // Handle cell selection
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let impression = M_Impressions[indexPath.row]
+        var impression = M_Impressions[indexPath.row]
+        if (selectedGeneration == 1 || selectedGeneration == 2){
+            let filteredImpressions = M_Impressions.filter { impressionData in
+                    // Assuming `generation` is a property of the `Impression` model
+                    return impressionData.gen == selectedGeneration
+                }
+
+            impression = filteredImpressions[indexPath.row]
+        }
         
         // Accessing the "Detail View Controller" using its identifier
         if let VC_CampaignDetail = storyboard?.instantiateViewController(withIdentifier: "VC_CampaignDetail") as? VC_CampaignDetail {

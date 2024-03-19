@@ -16,27 +16,32 @@ struct V_Account: View {
         NavigationView {
             Form {
                 Section(header: Text("Profile Picture")) {
-                    if (profilePhoto.imageExists == true){
-                        if let capturedImage = profilePhoto.capturedImage {
-                                            Image(uiImage: capturedImage)
-                                                .resizable()
-                                                .aspectRatio(contentMode: .fit)
-                                                .frame(width: 200, height: 200)
-                                        } else {
-                                            Text("Profile Image Error")
-                                        }
-                    } else {
-                        Button(action: {
-                            requestCameraAccess()
-                            isDetailPresented.toggle()
-                        }) {
-                            Image(systemName: "camera.fill")
-                                .font(.system(size: 30))
-                                .foregroundColor(.white)
-                                .padding(20)
-                                .background(Color.blue)
-                                .clipShape(Circle())
+                    HStack{
+                        Spacer()
+                        if (profilePhoto.imageExists == true){
+                            if let capturedImage = profilePhoto.capturedImage {
+                                Image(uiImage: capturedImage)
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .frame(width: 200, height: 200)
+                                    .clipShape(Circle())
+                            } else {
+                                Text("Profile Image Error")
+                            }
+                        } else {
+                            Button(action: {
+                                requestCameraAccess()
+                                isDetailPresented.toggle()
+                            }) {
+                                Image(systemName: "camera.fill")
+                                    .font(.system(size: 30))
+                                    .foregroundColor(.white)
+                                    .padding(20)
+                                    .background(Color.blue)
+                                    .clipShape(Circle())
+                            }
                         }
+                        Spacer()
                     }
                 }
                 Section(header: Text("Account")) {
@@ -59,10 +64,10 @@ struct V_Account: View {
                     HStack(spacing: 20) {
                         VStack {
                             AchievementView(title: "Impressions", icon: "", count: completedImpressionsCount)
-                            AchievementView(title: "Competitions", icon: "", count: 0)
+                            //AchievementView(title: "Competitions", icon: "", count: gamesPlayedCount)
                         }
                         VStack {
-                            AchievementView(title: "Games", icon: "", count: 0)
+                            AchievementView(title: "Games", icon: "", count: gamesPlayedCount)
                             AchievementView(title: "Tutorials", icon: "rosette", count: nil)
                         }
                     }

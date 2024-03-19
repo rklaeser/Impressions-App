@@ -7,7 +7,7 @@
 import UIKit
 import SwiftUI
 
-class VC_CameraContainer: UIViewController {
+class VC_SocialContainer: UIViewController {
     
     @IBOutlet var containerViewCamera: UIView!
     
@@ -36,4 +36,3 @@ class VC_CameraContainer: UIViewController {
 
     
 }
-

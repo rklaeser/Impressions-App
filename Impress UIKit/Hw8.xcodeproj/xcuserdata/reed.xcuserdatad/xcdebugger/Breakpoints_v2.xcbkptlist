@@ -14,13 +14,13 @@
             filePath = "Hw8/VC_Campaign.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "tableView(_:accessoryButtonTappedForRowWith:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 91e63628b47c16c7"
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 91e63628b47c17cf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/VC_Campaign.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "620">
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "612">
                </Location>
                <Location
-                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 91e63628b47c16c7"
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 91e63628b47c17cf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,24 +45,24 @@
                   urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/VC_Campaign.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 91e63628b47c17cf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "Hw8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/VC_Campaign.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
                   offsetFromSymbolStart = "384">
-               </Location>
-               <Location
-                  uuid = "1CADCA93-419D-404C-A574-5AE5DC7BD4EA - 91e63628b47c16c7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Hw8.VC_Campaign.tableView(_: __C.UITableView, accessoryButtonTappedForRowWith: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "Hw8"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/reed/Desktop/Impressions%20App/Impress%20UIKit/Hw8/VC_Campaign.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
-                  offsetFromSymbolStart = "356">
                </Location>
             </Locations>
          </BreakpointContent>

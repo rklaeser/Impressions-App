@@ -27,12 +27,11 @@
 		006BA43C2B9655050001C14D /* VC_Campaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BA43B2B9655050001C14D /* VC_Campaign.swift */; };
 		006BA43E2B965B2F0001C14D /* M_Impression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BA43D2B965B2F0001C14D /* M_Impression.swift */; };
 		006BA4402B9661300001C14D /* VC_CampaignDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BA43F2B9661300001C14D /* VC_CampaignDetail.swift */; };
-		009B79802BA61C99000FFE5D /* VC_Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B797F2BA61C99000FFE5D /* VC_Camera.swift */; };
-		009B79822BA62C44000FFE5D /* VC_CameraContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B79812BA62C44000FFE5D /* VC_CameraContainer.swift */; };
-		009B79842BA62C61000FFE5D /* V_Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B79832BA62C61000FFE5D /* V_Camera.swift */; };
+		009B79842BA62C61000FFE5D /* VC_CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B79832BA62C61000FFE5D /* VC_CameraViewController.swift */; };
 		009B79862BA649B4000FFE5D /* Kona.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 009B79852BA649B4000FFE5D /* Kona.MOV */; };
 		009B79882BA64A42000FFE5D /* V_Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B79872BA64A42000FFE5D /* V_Social.swift */; };
 		009B798A2BA773C4000FFE5D /* M_Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B79892BA773C4000FFE5D /* M_Social.swift */; };
+		00E801CE2BA90AB700B8EAE4 /* VC_SocialContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E801CD2BA90AB700B8EAE4 /* VC_SocialContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,12 +76,11 @@
 		006BA43B2B9655050001C14D /* VC_Campaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Campaign.swift; sourceTree = "<group>"; };
 		006BA43D2B965B2F0001C14D /* M_Impression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_Impression.swift; sourceTree = "<group>"; };
 		006BA43F2B9661300001C14D /* VC_CampaignDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_CampaignDetail.swift; sourceTree = "<group>"; };
-		009B797F2BA61C99000FFE5D /* VC_Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Camera.swift; sourceTree = "<group>"; };
-		009B79812BA62C44000FFE5D /* VC_CameraContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_CameraContainer.swift; sourceTree = "<group>"; };
-		009B79832BA62C61000FFE5D /* V_Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V_Camera.swift; sourceTree = "<group>"; };
+		009B79832BA62C61000FFE5D /* VC_CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_CameraViewController.swift; sourceTree = "<group>"; };
 		009B79852BA649B4000FFE5D /* Kona.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Kona.MOV; path = ../../../../Downloads/Kona.MOV; sourceTree = "<group>"; };
 		009B79872BA64A42000FFE5D /* V_Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V_Social.swift; sourceTree = "<group>"; };
 		009B79892BA773C4000FFE5D /* M_Social.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M_Social.swift; sourceTree = "<group>"; };
+		00E801CD2BA90AB700B8EAE4 /* VC_SocialContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_SocialContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,10 +145,8 @@
 				0003493D2BA235C80092B7C6 /* VC_SwiftUIContainer.swift */,
 				0003493F2BA250BA0092B7C6 /* V_Tutorial.swift */,
 				000349412BA251030092B7C6 /* M_Tutorial.swift */,
-				009B797F2BA61C99000FFE5D /* VC_Camera.swift */,
-				009B79812BA62C44000FFE5D /* VC_CameraContainer.swift */,
 				009B79852BA649B4000FFE5D /* Kona.MOV */,
-				009B79832BA62C61000FFE5D /* V_Camera.swift */,
+				009B79832BA62C61000FFE5D /* VC_CameraViewController.swift */,
 				009B79872BA64A42000FFE5D /* V_Social.swift */,
 				009B79892BA773C4000FFE5D /* M_Social.swift */,
 				000F53DD2BA7AC6E004991B2 /* Obama.M4A */,
@@ -158,6 +154,7 @@
 				000F53E12BA7AF3F004991B2 /* Trump.M4A */,
 				000F53E32BA7B0B5004991B2 /* Easy.M4A */,
 				000F53E52BA7E910004991B2 /* M_Scenario.swift */,
+				00E801CD2BA90AB700B8EAE4 /* VC_SocialContainer.swift */,
 			);
 			path = Hw8;
 			sourceTree = "<group>";
@@ -299,7 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				004544AC2BA126DA00D76465 /* VC_PlayContainer.swift in Sources */,
-				009B79822BA62C44000FFE5D /* VC_CameraContainer.swift in Sources */,
 				004544AE2BA128B900D76465 /* V_Play.swift in Sources */,
 				000F53E62BA7E910004991B2 /* M_Scenario.swift in Sources */,
 				006BA43E2B965B2F0001C14D /* M_Impression.swift in Sources */,
@@ -310,11 +306,11 @@
 				0003493E2BA235C80092B7C6 /* VC_SwiftUIContainer.swift in Sources */,
 				009B79882BA64A42000FFE5D /* V_Social.swift in Sources */,
 				0003493C2BA22B820092B7C6 /* V_Account.swift in Sources */,
-				009B79842BA62C61000FFE5D /* V_Camera.swift in Sources */,
+				00E801CE2BA90AB700B8EAE4 /* VC_SocialContainer.swift in Sources */,
+				009B79842BA62C61000FFE5D /* VC_CameraViewController.swift in Sources */,
 				006BA43C2B9655050001C14D /* VC_Campaign.swift in Sources */,
 				0003493A2BA12CF00092B7C6 /* VC_Home.swift in Sources */,
 				006BA40E2B964FB00001C14D /* SceneDelegate.swift in Sources */,
-				009B79802BA61C99000FFE5D /* VC_Camera.swift in Sources */,
 				000349422BA251030092B7C6 /* M_Tutorial.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

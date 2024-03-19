@@ -20,6 +20,25 @@ class VC_Home: UIViewController {
         // Assign text values as tags to the buttons
         accountButton.tag = 0
         cardButton.tag = 1
+        
+        let titleLabel = UILabel()
+            titleLabel.text = "Impressions"
+            titleLabel.font = UIFont.systemFont(ofSize: 24, weight: .bold)
+            titleLabel.translatesAutoresizingMaskIntoConstraints = false
+            view.addSubview(titleLabel)
+            
+            let subtitleLabel = UILabel()
+            subtitleLabel.text = "Become a real-life deep fake"
+            subtitleLabel.font = UIFont.systemFont(ofSize: 18, weight: .regular)
+            subtitleLabel.translatesAutoresizingMaskIntoConstraints = false
+            view.addSubview(subtitleLabel)
+            
+            NSLayoutConstraint.activate([
+                titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -50), // Adjust vertical position
+                subtitleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                subtitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 10) // Add space between title and subtitle
+            ])
 
                 
                
@@ -63,6 +82,7 @@ class VC_Home: UIViewController {
                cardButton.titleLabel?.leadingAnchor.constraint(equalTo: cardButton.imageView!.trailingAnchor, constant: 20).isActive = true
                cardButton.titleLabel?.trailingAnchor.constraint(equalTo: cardButton.trailingAnchor, constant: -10).isActive = true
                cardButton.titleLabel?.centerYAnchor.constraint(equalTo: cardButton.centerYAnchor).isActive = true
+        
         
         
             accountButton.addTarget(self, action: #selector(buttonTapped), for:  UIControl.Event.touchUpInside)

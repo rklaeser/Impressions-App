@@ -2,7 +2,7 @@ import SwiftUI
 import AVKit
 
 struct V_Tutorial: View {
-    @ObservedObject var model = M_Tutorial()
+    @State var model = M_Tutorial()
     @State private var currentPage = 0 // Define currentPage here
     @Environment(\.presentationMode) var presentationMode
 
